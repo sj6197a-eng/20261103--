@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="진주 야행 행사 안내와 사전등록 페이지">
+  <title>진주 야행 | 천년의 밤, 진주를 거닐다</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="진주 야행 홈">
+      <span class="brand-mark">진주</span><span>야행</span>
+      <small>천년의 밤, 진주를 거닐다</small>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="주요 메뉴">
+      <a href="#about">행사소개</a><a href="#programs">프로그램</a><a href="#schedule">행사일정</a><a href="#visit">오시는 길</a>
+      <button class="nav-register" data-open-register>사전등록</button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">JINJU CULTURAL NIGHT 2026 · 가상 행사 시안</p>
+        <h1>천년의 밤,<br><em>진주를 거닐다</em></h1>
+        <p class="hero-lead">역사와 문화가 빛으로 이어지는 밤,<br>진주의 아름다운 이야기를 만나보세요.</p>
+        <div class="hero-meta"><span>11. 14.(토) – 11. 15.(일)</span><span>18:00 – 23:00</span></div>
+        <div class="hero-actions">
+          <button class="btn btn-light" data-open-register>사전등록 신청 <span>↗</span></button>
+          <button class="btn btn-outline-light" data-open-schedule>전체 일정 보기</button>
+        </div>
+        <p class="demo-note">※ 날짜와 프로그램은 웹페이지 제작을 위한 예시입니다.</p>
+      </div>
+      <div class="hero-art">
+        <img src="assets/festival-poster.png" alt="한국 전통 건축과 인물, 축제 풍경을 그린 진주 문화재 야행 포스터 참고 이미지">
+        <div class="art-caption">역사 위에 켜지는<br><strong>빛의 이야기</strong></div>
+      </div>
+      <div class="hero-bottom">JINJU · KOREA <span>문화유산 야행</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT THE FESTIVAL</p>
+        <h2>진주의 밤이<br><em>문화가 되는 시간</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>고즈넉한 문화유산과 골목길, 그리고 사람들의 이야기가 어우러지는 특별한 밤. 진주 야행에서 낮과는 다른 진주의 매력을 만나보세요.</p>
+        <div class="fact-row"><span>행사 기간</span><strong>2026. 11. 14.(토) – 11. 15.(일)</strong></div>
+        <div class="fact-row"><span>운영 시간</span><strong>18:00 – 23:00</strong></div>
+        <div class="fact-row"><span>행사 장소</span><strong>진주성 및 진주 원도심 일원 (예시)</strong></div>
+      </div>
+    </section>
+
+    <section class="program-section" id="programs">
+      <div class="section-wrap">
+        <div class="section-top">
+          <div><p class="eyebrow">NIGHT PROGRAM</p><h2>밤을 채우는 <em>여덟 가지 이야기</em></h2></div>
+          <button class="text-button" data-open-programs>전체 프로그램 보기 <span>↗</span></button>
+        </div>
+        <div class="program-grid">
+          <article class="program-card">
+            <img src="assets/palace.svg" alt="전통 기와지붕과 해가 있는 일러스트">
+            <div class="card-body"><span class="program-no">01 / 야경</span><h3>빛으로 만나는 진주성</h3><p>문화유산의 아름다움을 빛과 함께 감상하는 야간 산책</p><span class="time">18:00 – 23:00</span></div>
+          </article>
+          <article class="program-card">
+            <img src="assets/lanterns.svg" alt="밤하늘에 매달린 전통 등불 일러스트">
+            <div class="card-body"><span class="program-no">02 / 야로</span><h3>등불 따라 골목 여행</h3><p>따뜻한 등불을 따라 걷는 원도심 골목 이야기</p><span class="time">18:30 – 22:00</span></div>
+          </article>
+          <article class="program-card">
+            <img src="assets/culture.svg" alt="전통 한옥을 그린 일러스트">
+            <div class="card-body"><span class="program-no">03 / 야설</span><h3>달빛 아래 전통 공연</h3><p>전통 음악과 이야기 공연으로 만나는 우리 문화</p><span class="time">19:00 – 21:30</span></div>
+          </article>
+        </div>
+        <div class="center-action"><button class="btn btn-dark" data-open-programs>전체 프로그램 보기 <span>↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="schedule-section section-wrap" id="schedule">
+      <div class="schedule-poster">
+        <img src="assets/lanterns.svg" alt="어두운 남색 밤하늘과 빛나는 전통 등불 일러스트">
+      </div>
+      <div class="schedule-copy">
+        <p class="eyebrow">PLAN YOUR NIGHT</p><h2>당신의 밤을<br><em>미리 계획해 보세요</em></h2>
+        <p>공연과 체험의 시간을 확인하고, 마음에 드는 프로그램을 골라보세요.</p>
+        <div class="mini-schedule"><span>18:00</span><div><strong>문화유산 야간 개방</strong><small>진주성 일원</small></div></div>
+        <div class="mini-schedule"><span>19:00</span><div><strong>전통 예술 공연</strong><small>메인 무대</small></div></div>
+        <div class="mini-schedule"><span>20:30</span><div><strong>등불 골목 산책</strong><small>원도심 코스</small></div></div>
+        <button class="btn btn-dark" data-open-schedule>전체 일정 보기 <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="section-wrap visit-inner">
+        <div><p class="eyebrow">VISIT JINJU</p><h2>진주 야행으로<br><em>오시는 길</em></h2><p>방문 전 교통편과 주차 정보를 확인해 주세요.</p></div>
+        <div class="visit-info">
+          <div><span class="info-icon">⌖</span><p><strong>행사 장소</strong><br>진주성 및 원도심 일원 (예시)</p></div>
+          <div><span class="info-icon">P</span><p><strong>주차 안내</strong><br>행사장 주변 공영주차장 이용 권장<br><small>혼잡이 예상되니 대중교통을 이용해 주세요.</small></p></div>
+          <div><span class="info-icon">ⓘ</span><p><strong>문의 안내</strong><br>행사 운영 사무국 (가상)<br><small>운영시간 09:00 – 18:00</small></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="register-banner">
+      <p class="eyebrow">SAVE YOUR NIGHT</p><h2>진주의 특별한 밤,<br>함께 걸어볼까요?</h2>
+      <p>사전등록하고 설레는 문화의 밤을 준비하세요.</p>
+      <button class="btn btn-light" data-open-register>지금 사전등록하기 <span>↗</span></button>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home">진주 야행</a><p>본 웹페이지는 디자인 시안이며 행사 정보와 일정은 모두 예시입니다.</p><small>© 2026 JINJU NIGHT WALK · DEMO</small></footer>
+
+  <!-- 공통 팝업: 전체 일정과 프로그램 목록을 JavaScript로 표시합니다. -->
+  <dialog class="modal" id="infoModal" aria-labelledby="modalTitle">
+    <div class="modal-head"><div><p class="eyebrow" id="modalEyebrow">JINJU NIGHT</p><h2 id="modalTitle">전체 일정 보기</h2></div><button class="modal-close" data-close-modal aria-label="팝업 닫기">×</button></div>
+    <div class="modal-content" id="modalContent"></div>
+  </dialog>
+</body>
+</html>
